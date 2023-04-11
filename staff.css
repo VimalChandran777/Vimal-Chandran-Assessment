@@ -1,0 +1,13 @@
+body{
+    background-color: #F6DEFF;
+}
+#logo{
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding-left:50%;
+}
+#photo{
+    background-color: #CDCFEE;
+    padding-right: 10px;
+}
