@@ -3,15 +3,10 @@ body{
 }
 .logo{
     
-    display: flex;
-   cursor: pointer;
-}
-.logoa{
+    flex-direction: row;
     cursor: pointer;
 }
-.logoa:hover{
-    transform: scale(1.1);
-}
+
 .a{
     
     display: flex;
@@ -22,54 +17,54 @@ body{
 #wizard{
  height: 100px;
 }
-#Dumbledore123{
+#photo{
     height: 250px;
     padding-right: 40px;
     cursor: pointer;
     
 }
-#Dumbledore123:hover{
+#photo:hover{
     transform: scale(1.1);
 }
-#Hagrid{
+#draco{
     height: 250px;
     padding-right: 20px;
     cursor: pointer;
     
 }
-#Hagrid:hover{
+#draco:hover{
     transform: scale(1.1);
 }
-#Lupin{
+#harrypoter{
     height: 250px;
     padding-left: 40px;
     cursor: pointer;
 }
-#Lupin:hover{
+#harrypoter:hover{
     transform: scale(1.1);
 }
-#Megonagall{
+#ron{
     height: 250px;
     cursor: pointer;
 }
-#Megonagall:hover{
+#ron:hover{
     transform: scale(1.1);
 }
 
-#Umbridge{
+#cedric{
     height: 250px;
     padding-right: 20px;
     cursor: pointer;
 }
-#Umbridge:hover{
+#cedric:hover{
     transform: scale(1.1);
 }
-#Snap{
+#hermoine{
     height:250px;
     padding-left: 40px;
     cursor: pointer;
 }
-#Snap:hover{
+#hermoine:hover{
     transform: scale(1.1);
 }
 .total{
