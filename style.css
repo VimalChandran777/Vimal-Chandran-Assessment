@@ -3,8 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-body {
+    body {
     height: 100vh;
     overflow: hidden;
     background: url('./img/298cd4ffd68b87514b6cd7e390ac5279\ 1.png') center/cover no-repeat;
@@ -40,7 +39,7 @@ body {
     background: none;
     
 }
-form {
+    form {
     display: flex; 
     background: inherit;
     flex-direction: column;
@@ -48,7 +47,6 @@ form {
     align-items: center;
     
 }
-
 
 
 input, button {

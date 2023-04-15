@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    background: url(./img/Group\ 61.png)no-repeat;
 }
 img{
     height: 600px;
