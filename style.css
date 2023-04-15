@@ -79,3 +79,24 @@ button {
     margin-top: 50px;
     
 }
+@media(max-width:600px)
+{
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input,button{
+        width:70%;
+    }
+    #center,b{
+        width:70%;
+    }
+    form{
+        width:100%;
+    }
+    .left{
+        width:100%;
+    }
+}
