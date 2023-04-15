@@ -91,7 +91,9 @@ button {
         width:70%;
     }
     #center,b{
-        width:70%;
+        width:100%;
+        display: flex;
+        justify-content: center;
     }
     form{
         width:100%;

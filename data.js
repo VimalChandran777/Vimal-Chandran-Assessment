@@ -26,3 +26,21 @@ if (isStaff) {
 } else {
     document.body.style.backgroundColor = student[a]
 }
+const fetchstudentData = async( ) =>
+{
+    const res = await fetch('https://hp-api.onrender.com/api/characters/students');
+    const data = await res.json();
+    console.log(data);
+    return data;
+}
+fetchstudentData()
+
+const fetchstaffdata = async ( ) =>
+
+{
+    const resa = await fetch('https://hp-api.onrender.com/api/characters/staff');
+    const dataa = await resa.json();
+    console.log(dataa);
+    return dataa;
+}
+fetchstaffdata()

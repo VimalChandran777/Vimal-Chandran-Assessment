@@ -13,14 +13,14 @@ body{
     transform: scale(1.1);
 }
 .a{
-    
+    height: 80px;
     display: flex;
 }
 .logo:hover{
     transform: scale(1.1);
 }
 #wizard{
- height: 100px;
+ height: 80px;
 }
 #Dumbledore123{
     height: 250px;
@@ -96,4 +96,28 @@ body{
     align-items: center;
     justify-content: center;
 }
- 
+@media(max-width:600px)
+{
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .total{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    #header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        flex-direction: column; 
+    }
+    
+ }

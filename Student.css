@@ -81,7 +81,7 @@ body{
 .totaltotal{
     display: flex;
     justify-content: center;
-    background: url(./img/Rectangle\ 50.png) center/cover no-repeat;
+   background: url(./img/Rectangle\ 50.png) center/cover no-repeat;
     height: max-content;
 
 }
@@ -91,3 +91,28 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media(max-width:600px)
+{
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .total{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    #header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        flex-direction: column; 
+    }
+    
+ }
