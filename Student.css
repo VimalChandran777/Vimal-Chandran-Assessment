@@ -1,10 +1,31 @@
 body{
-    background-color: #F6DEFF;
+   
+    width:100%;
+    height: 100vh;
+    animation: changeBg 10s linear infinite;
+}
+@keyframes changeBg{
+    0%{
+        background-color: #F6DEFF;
+    }
+    20%{
+        background-color:#F5F5F5;
+    }
+    40%{
+        background-color:#F6DEFF;
+    }
+    60%{
+        background-color: #FFE29B;
+    }
+    80%{
+        background-color: lightgray;
+    }
 }
 .logo{
     
     flex-direction: row;
     cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 
 .a{
@@ -21,15 +42,17 @@ body{
     height: 250px;
     padding-right: 40px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
     
 }
-#photo:hover{
+.images:hover{
     transform: scale(1.1);
 }
 #draco{
     height: 250px;
     padding-right: 20px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
     
 }
 #draco:hover{
@@ -39,6 +62,8 @@ body{
     height: 250px;
     padding-left: 40px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
 }
 #harrypoter:hover{
     transform: scale(1.1);
@@ -46,6 +71,8 @@ body{
 #ron{
     height: 250px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
 }
 #ron:hover{
     transform: scale(1.1);
@@ -55,6 +82,8 @@ body{
     height: 250px;
     padding-right: 20px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
 }
 #cedric:hover{
     transform: scale(1.1);
@@ -63,6 +92,8 @@ body{
     height:250px;
     padding-left: 40px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
 }
 #hermoine:hover{
     transform: scale(1.1);

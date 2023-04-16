@@ -1,13 +1,37 @@
+
 body{
-    background-color: #F6DEFF;
+   
+    width:100%;
+    height: 100vh;
+    animation: changeBg 10s linear infinite;
+}
+@keyframes changeBg{
+    0%{
+        background-color: #F6DEFF;
+    }
+    20%{
+        background-color:#F5F5F5;
+    }
+    40%{
+        background-color:#F6DEFF;
+    }
+    60%{
+        background-color: #FFE29B;
+    }
+    80%{
+        background-color: lightgray;
+    }
 }
 .logo{
     
     display: flex;
    cursor: pointer;
+   transition: all 1s ease-in-out;
 }
 .logoa{
     cursor: pointer;
+    
+   transition: all 1s ease-in-out;
 }
 .logoa:hover{
     transform: scale(1.1);
@@ -27,6 +51,7 @@ body{
     padding-right: 40px;
     cursor: pointer;
     
+   transition: all 1s ease-in-out;
 }
 #Dumbledore123:hover{
     transform: scale(1.1);
@@ -36,6 +61,7 @@ body{
     padding-right: 20px;
     cursor: pointer;
     
+   transition: all 1s ease-in-out;
 }
 #Hagrid:hover{
     transform: scale(1.1);
@@ -44,6 +70,8 @@ body{
     height: 250px;
     padding-left: 40px;
     cursor: pointer;
+    
+   transition: all 1s ease-in-out; 
 }
 #Lupin:hover{
     transform: scale(1.1);
@@ -51,6 +79,8 @@ body{
 #Megonagall{
     height: 250px;
     cursor: pointer;
+    
+   transition: all 1s ease-in-out;
 }
 #Megonagall:hover{
     transform: scale(1.1);
@@ -60,6 +90,8 @@ body{
     height: 250px;
     padding-right: 20px;
     cursor: pointer;
+    
+   transition: all 1s ease-in-out;
 }
 #Umbridge:hover{
     transform: scale(1.1);
@@ -68,6 +100,8 @@ body{
     height:250px;
     padding-left: 40px;
     cursor: pointer;
+    
+   transition: all 1s ease-in-out;
 }
 #Snap:hover{
     transform: scale(1.1);

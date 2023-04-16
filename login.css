@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body {
+    height: 100vh;
+    overflow: hidden;
+    background: url('./img/Wizard\ house\ login\ page.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#login{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   width:100%;
+   height: 15%;
+   padding-right: 50px;
+}
+button {
+    cursor: pointer;
+    font-family: Sofia Pro,serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #6b63b5;
+    color: #f9f4f2;
+    border-radius: 3px;
+    padding:10px 20px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+    
+}
+button:hover{
+    background-color: #7c73d2;
+    transform: scale(1.05);
+}
+#harrypotter{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#harry{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+    background: black;
+    opacity: 0.5;
+    color:white;
+}
