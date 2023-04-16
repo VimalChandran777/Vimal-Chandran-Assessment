@@ -45,36 +45,4 @@ const fetchstaffdata = async ( ) =>
 }
 fetchstaffdata()
 
-const setData = (data) => {
-    const houseImage = document.getElementById('houseLogo');
-    const innerCard = document.getElementById('inner-card');
-    const card = document.getElementById('container');
-    const photo = document.getElementById('photo');
-    const name = document.getElementById('name');
-    name.innerHTML = data.name;
-    if (data.image && data.image != "") {
-        photo.setAttribute('src', data.image)
-    } else {
-        photo.setAttribute('src', `../home/staff/${Number(location.href.split('?')[1].split(':')[1]) + 1}.png`)
-    }
-    photo.style.borderRadius = '5px'
-    houseImage.setAttribute('src', `./${data.house}.png`)
-    card.style.background = houses[data.house];
-    innerCard.style.background = houses[data.house]
-    setInfo(data)
-}
-
-const setInfo = (data) => {
-    const container = document.querySelector('#detail').children;
-    for(let i=0; i<container.length; i++) {
-        const properties = container.item(i).id;
-        const element = document.getElementById(properties);
-        const newElement = document.createElement('div');
-        if (properties !== 'wand') {
-            newElement.innerHTML = data[properties];
-        } else {
-            newElement.innerHTML = `${data[properties].wood}, ${data[properties].core}`
-        }
-        element.appendChild(newElement)
-   }
-}
+git 
