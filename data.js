@@ -44,5 +44,3 @@ const fetchstaffdata = async ( ) =>
     return dataa;
 }
 fetchstaffdata()
-
-git 
